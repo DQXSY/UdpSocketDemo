@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD22011D20C8CA6200AFA4F7 /* UDPDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD22011C20C8CA6200AFA4F7 /* UDPDemoController.m */; };
+		FD22012220C8D92C00AFA4F7 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = FD22012120C8D92C00AFA4F7 /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FD22012520C8D98100AFA4F7 /* UdpSocketManage.m in Sources */ = {isa = PBXBuildFile; fileRef = FD22012420C8D98100AFA4F7 /* UdpSocketManage.m */; };
+		FD22012820C90A5300AFA4F7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD22012720C90A5300AFA4F7 /* CFNetwork.framework */; };
+		FD22012B20C90D2B00AFA4F7 /* IPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FD22012920C90D2B00AFA4F7 /* IPHelper.m */; };
+		FD22012D20C911D600AFA4F7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD22012C20C911D600AFA4F7 /* MobileCoreServices.framework */; };
 		FD8F309320BC265800D91808 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8F309220BC265800D91808 /* AppDelegate.m */; };
 		FD8F309620BC265800D91808 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8F309520BC265800D91808 /* ViewController.m */; };
 		FD8F309920BC265800D91808 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8F309720BC265800D91808 /* Main.storyboard */; };
@@ -15,6 +21,12 @@
 		FD8F30A120BC265800D91808 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8F30A020BC265800D91808 /* main.m */; };
 		FD8F30AB20BC265800D91808 /* HoinDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8F30AA20BC265800D91808 /* HoinDemoTests.m */; };
 		FD8F30B620BC265800D91808 /* HoinDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8F30B520BC265800D91808 /* HoinDemoUITests.m */; };
+		FD8F30CC20BC2A9300D91808 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8F30CB20BC2A9300D91808 /* BaseViewController.m */; };
+		FD8F30CF20BC2AA600D91808 /* MainTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8F30CE20BC2AA600D91808 /* MainTableController.m */; };
+		FD8F30D520BC2FC100D91808 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8F30D420BC2FC100D91808 /* BaseNavigationController.m */; };
+		FD8F316920BC3B1D00D91808 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8F316820BC3B1D00D91808 /* UIView+Additions.m */; };
+		FD8F319B20C0329200D91808 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8F319A20C0329200D91808 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		FD8F31CA20C1431500D91808 /* UIView+helper.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8F31C920C1431400D91808 /* UIView+helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD22011B20C8CA6200AFA4F7 /* UDPDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UDPDemoController.h; sourceTree = "<group>"; };
+		FD22011C20C8CA6200AFA4F7 /* UDPDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UDPDemoController.m; sourceTree = "<group>"; };
+		FD22012020C8D92C00AFA4F7 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		FD22012120C8D92C00AFA4F7 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		FD22012320C8D98100AFA4F7 /* UdpSocketManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UdpSocketManage.h; sourceTree = "<group>"; };
+		FD22012420C8D98100AFA4F7 /* UdpSocketManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UdpSocketManage.m; sourceTree = "<group>"; };
+		FD22012720C90A5300AFA4F7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FD22012920C90D2B00AFA4F7 /* IPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPHelper.m; sourceTree = "<group>"; };
+		FD22012A20C90D2B00AFA4F7 /* IPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPHelper.h; sourceTree = "<group>"; };
+		FD22012C20C911D600AFA4F7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		FD8F308E20BC265800D91808 /* HoinDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoinDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8F309120BC265800D91808 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD8F309220BC265800D91808 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +73,20 @@
 		FD8F30B120BC265800D91808 /* HoinDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoinDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8F30B520BC265800D91808 /* HoinDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoinDemoUITests.m; sourceTree = "<group>"; };
 		FD8F30B720BC265800D91808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD8F30CA20BC2A9300D91808 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		FD8F30CB20BC2A9300D91808 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		FD8F30CD20BC2AA500D91808 /* MainTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableController.h; sourceTree = "<group>"; };
+		FD8F30CE20BC2AA600D91808 /* MainTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableController.m; sourceTree = "<group>"; };
+		FD8F30D120BC2AF200D91808 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FD8F30D220BC2C9100D91808 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		FD8F30D320BC2FC100D91808 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		FD8F30D420BC2FC100D91808 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		FD8F316720BC3B1D00D91808 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		FD8F316820BC3B1D00D91808 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		FD8F319920C0329200D91808 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		FD8F319A20C0329200D91808 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		FD8F31C820C1431400D91808 /* UIView+helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+helper.h"; sourceTree = "<group>"; };
+		FD8F31C920C1431400D91808 /* UIView+helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD22012D20C911D600AFA4F7 /* MobileCoreServices.framework in Frameworks */,
+				FD22012820C90A5300AFA4F7 /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +116,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD22011920C8CA5200AFA4F7 /* UDPDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FD22011E20C8CFA100AFA4F7 /* Model */,
+				FD22011A20C8CA5200AFA4F7 /* Controller */,
+			);
+			path = UDPDemo;
+			sourceTree = "<group>";
+		};
+		FD22011A20C8CA5200AFA4F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FD22011B20C8CA6200AFA4F7 /* UDPDemoController.h */,
+				FD22011C20C8CA6200AFA4F7 /* UDPDemoController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FD22011E20C8CFA100AFA4F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD22011F20C8D92C00AFA4F7 /* AsyncUdpSocket */ = {
+			isa = PBXGroup;
+			children = (
+				FD22012A20C90D2B00AFA4F7 /* IPHelper.h */,
+				FD22012920C90D2B00AFA4F7 /* IPHelper.m */,
+				FD22012020C8D92C00AFA4F7 /* AsyncUdpSocket.h */,
+				FD22012120C8D92C00AFA4F7 /* AsyncUdpSocket.m */,
+				FD22012320C8D98100AFA4F7 /* UdpSocketManage.h */,
+				FD22012420C8D98100AFA4F7 /* UdpSocketManage.m */,
+			);
+			path = AsyncUdpSocket;
+			sourceTree = "<group>";
+		};
+		FD22012620C90A5300AFA4F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD22012C20C911D600AFA4F7 /* MobileCoreServices.framework */,
+				FD22012720C90A5300AFA4F7 /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FD8F308520BC265800D91808 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +170,7 @@
 				FD8F30A920BC265800D91808 /* HoinDemoTests */,
 				FD8F30B420BC265800D91808 /* HoinDemoUITests */,
 				FD8F308F20BC265800D91808 /* Products */,
+				FD22012620C90A5300AFA4F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +187,10 @@
 		FD8F309020BC265800D91808 /* HoinDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FD8F316520BC3B1D00D91808 /* Tool */,
+				FD8F30D020BC2ADB00D91808 /* Config */,
+				FD8F30C920BC2A7F00D91808 /* Base */,
+				FD8F30C320BC29CF00D91808 /* Controller */,
 				FD8F309120BC265800D91808 /* AppDelegate.h */,
 				FD8F309220BC265800D91808 /* AppDelegate.m */,
 				FD8F309420BC265800D91808 /* ViewController.h */,
@@ -130,6 +220,90 @@
 				FD8F30B720BC265800D91808 /* Info.plist */,
 			);
 			path = HoinDemoUITests;
+			sourceTree = "<group>";
+		};
+		FD8F30C320BC29CF00D91808 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FD22011920C8CA5200AFA4F7 /* UDPDemo */,
+				FD8F30C720BC2A3700D91808 /* MainTable */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FD8F30C720BC2A3700D91808 /* MainTable */ = {
+			isa = PBXGroup;
+			children = (
+				FD8F30C820BC2A3700D91808 /* Controller */,
+			);
+			path = MainTable;
+			sourceTree = "<group>";
+		};
+		FD8F30C820BC2A3700D91808 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FD8F30CD20BC2AA500D91808 /* MainTableController.h */,
+				FD8F30CE20BC2AA600D91808 /* MainTableController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FD8F30C920BC2A7F00D91808 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FD8F30CA20BC2A9300D91808 /* BaseViewController.h */,
+				FD8F30CB20BC2A9300D91808 /* BaseViewController.m */,
+				FD8F30D320BC2FC100D91808 /* BaseNavigationController.h */,
+				FD8F30D420BC2FC100D91808 /* BaseNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FD8F30D020BC2ADB00D91808 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				FD8F30D120BC2AF200D91808 /* PrefixHeader.pch */,
+				FD8F30D220BC2C9100D91808 /* Macros.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		FD8F316520BC3B1D00D91808 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				FD22011F20C8D92C00AFA4F7 /* AsyncUdpSocket */,
+				FD8F31C720C1431400D91808 /* UIView(helper) */,
+				FD8F319820C0329200D91808 /* FDFullscreenPopGesture */,
+				FD8F316620BC3B1D00D91808 /* UIView+Additions */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		FD8F316620BC3B1D00D91808 /* UIView+Additions */ = {
+			isa = PBXGroup;
+			children = (
+				FD8F316720BC3B1D00D91808 /* UIView+Additions.h */,
+				FD8F316820BC3B1D00D91808 /* UIView+Additions.m */,
+			);
+			path = "UIView+Additions";
+			sourceTree = "<group>";
+		};
+		FD8F319820C0329200D91808 /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				FD8F319920C0329200D91808 /* UINavigationController+FDFullscreenPopGesture.h */,
+				FD8F319A20C0329200D91808 /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+		FD8F31C720C1431400D91808 /* UIView(helper) */ = {
+			isa = PBXGroup;
+			children = (
+				FD8F31C820C1431400D91808 /* UIView+helper.h */,
+				FD8F31C920C1431400D91808 /* UIView+helper.m */,
+			);
+			path = "UIView(helper)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +373,7 @@
 				TargetAttributes = {
 					FD8F308D20BC265800D91808 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					FD8F30A520BC265800D91808 = {
 						CreatedOnToolsVersion = 9.2;
@@ -266,8 +440,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD8F309620BC265800D91808 /* ViewController.m in Sources */,
+				FD22012B20C90D2B00AFA4F7 /* IPHelper.m in Sources */,
+				FD8F30CC20BC2A9300D91808 /* BaseViewController.m in Sources */,
+				FD8F30D520BC2FC100D91808 /* BaseNavigationController.m in Sources */,
+				FD22011D20C8CA6200AFA4F7 /* UDPDemoController.m in Sources */,
+				FD8F30CF20BC2AA600D91808 /* MainTableController.m in Sources */,
+				FD8F316920BC3B1D00D91808 /* UIView+Additions.m in Sources */,
+				FD22012520C8D98100AFA4F7 /* UdpSocketManage.m in Sources */,
 				FD8F30A120BC265800D91808 /* main.m in Sources */,
+				FD22012220C8D92C00AFA4F7 /* AsyncUdpSocket.m in Sources */,
+				FD8F31CA20C1431500D91808 /* UIView+helper.m in Sources */,
 				FD8F309320BC265800D91808 /* AppDelegate.m in Sources */,
+				FD8F319B20C0329200D91808 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +537,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -372,6 +557,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
+				"MTL_ENABLE_DEBUG_INFO[arch=*]" = default;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -408,6 +594,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -430,12 +617,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z497AUHSQZ;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = M26PE4B7V9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HoinDemo/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = HoinDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hoinnet.HoinDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoin.ios.testDemo.pgy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9024988b-1f89-42c7-b7a5-7b6345e7e1ba";
+				PROVISIONING_PROFILE_SPECIFIER = "testDemo_Dev(299)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -444,12 +634,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z497AUHSQZ;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = M26PE4B7V9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HoinDemo/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = HoinDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hoinnet.HoinDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoin.ios.testDemo.pgy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9024988b-1f89-42c7-b7a5-7b6345e7e1ba";
+				PROVISIONING_PROFILE_SPECIFIER = "testDemo_Dev(299)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

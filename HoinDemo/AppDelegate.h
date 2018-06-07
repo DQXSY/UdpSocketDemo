@@ -7,11 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MainTableController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (nonatomic, strong) MainTableController *mainVc;
+
++ (AppDelegate *)sharedAppDelegate;
+
+- (void)showMainTableVc;
 
 @end
 
